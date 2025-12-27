@@ -10,7 +10,7 @@ import java.util.List;
  * Interfaz de repositorio para la entidad Zapatilla.
  * Proporciona métodos CRUD estándar gracias a la herencia de JpaRepository.
  * 
- * @author Manus AI
+ * 
  */
 @Repository
 public interface ZapatillaRepository extends JpaRepository<Zapatilla, Long> {
